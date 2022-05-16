@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.cardsContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #777;
+    border-radius: 4px;
+    width: max-content;
+    padding: 2rem;
+    margin: 2rem;
+}
+
+.image {
+    width: 40rem;
+}
+
+.title {
+    font-size: 1.7rem;
+    margin-top: 2rem;
+}
+
+.description {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+.links-container {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.link {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #333;
+}
