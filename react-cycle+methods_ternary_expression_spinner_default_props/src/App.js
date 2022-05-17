@@ -7,9 +7,9 @@ import Ex9Part1 from "./components/Exercise9.1/Ex9part1";
 function App() {
     return (
         <div className="App">
-            {/* <Ex8Part1></Ex8Part1> */}
+            <Ex8Part1></Ex8Part1>
             {/* <Ex8Part2></Ex8Part2> */}
-            <Ex8Part3></Ex8Part3>
+            {/* <Ex8Part3></Ex8Part3> */}
             {/* <Ex9Part1></Ex9Part1> */}
         </div>
     );
