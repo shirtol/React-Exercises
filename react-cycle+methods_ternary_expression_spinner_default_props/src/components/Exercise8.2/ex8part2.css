@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100rem;
+    height: 100rem;
+}
+
+.box {
+    background: lightcoral;
+    width: 20rem;
+    height: 20rem;
+    position: fixed;
+    left: 0;
+
+    transition: transform 1s cubic-bezier(0, 0.52, 0, 1);
+}
+
+.box1 {
+    width: 10rem;
+    height: 10rem;
+    transform: translate3d(-10rem, 0, 0);
+    top: 0;
+}
+.box2 {
+    width: 20rem;
+    height: 20rem;
+    transform: translate3d(-20rem, 0, 0);
+    top: 20rem;
+}
+.box3 {
+    width: 5rem;
+    height: 5rem;
+    transform: translate3d(-5rem, 0, 0);
+    top: 50rem;
+}
