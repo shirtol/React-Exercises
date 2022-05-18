@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.btn-container {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+}
+
+.btn {
+    padding: 2rem;
+    color: #333;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.red {
+    background: red;
+}
+
+.blue {
+    background: blue;
+    color: #fff;
+}
+
+.yellow {
+    background: yellow;
+}
