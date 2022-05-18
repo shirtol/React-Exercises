@@ -13,6 +13,7 @@ export default class Submit extends React.Component {
         // ) : (
         return (
             <input
+                className="ui button"
                 type="submit"
                 value="continue"
                 // onClick={this.handleSubmit}

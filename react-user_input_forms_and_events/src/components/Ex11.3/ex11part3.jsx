@@ -63,7 +63,7 @@ export default class Ex11Part3 extends React.Component {
                 clickedBack={this.handleBack}
             ></PageAfterPressSubmit>
         ) : (
-            <form className="form" onSubmit={this.handleSubmit}>
+            <form className="ui form" onSubmit={this.handleSubmit}>
                 <InputTag
                     inputLabel="first name"
                     whenInputChange={this.handleChangeInput1}

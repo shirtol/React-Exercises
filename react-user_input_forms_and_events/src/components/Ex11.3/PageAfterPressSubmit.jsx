@@ -13,17 +13,22 @@ export default class PageAfterPressSubmit extends React.Component {
                 <h3>{this.props.lastName}</h3>
                 <h3>{this.props.age}</h3>
                 <h3>{this.props.freeText}</h3>
-
                 <div className="btn-container">
-                    <Button
-                        btnName="back"
-                        WhenButtonClick={this.props.clickedBack}
-                    ></Button>
-                    <Button
-                        btnName="send survey"
-                        WhenButtonClick={this.handleSendClick}
-                    ></Button>
-                    {this.state.isSubmitted && <h2>Success!</h2>}
+                    <div>
+                        <Button
+                            btnName="back"
+                            WhenButtonClick={this.props.clickedBack}
+                        ></Button>
+                        <Button
+                            btnName="send survey"
+                            WhenButtonClick={this.handleSendClick}
+                        ></Button>
+                    </div>
+                    {this.state.isSubmitted && (
+                        <div>
+                            <h2>Success!</h2>
+                        </div>
+                    )}
                 </div>
             </div>
         );
