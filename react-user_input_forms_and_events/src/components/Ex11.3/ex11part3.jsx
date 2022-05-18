@@ -40,14 +40,12 @@ export default class Ex11Part3 extends React.Component {
 
     handleSubmit = (e) => {
         e.preventDefault();
-        console.log(this.state);
         this.setState((_) => {
             return { isSubmitPressed: true };
         });
     };
 
     handleBack = () => {
-        console.log(this.state);
         this.setState((_) => {
             return { isSubmitPressed: false };
         });

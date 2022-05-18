@@ -1,0 +1,31 @@
+input[type="checkbox"] + label {
+  display: inline-block;
+  padding: 6px 10px 6px 28px;
+  cursor: pointer;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.form-checkbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  padding-left: 4rem;
+  padding-top: 4rem;
+}
+
+.form-checkbox * {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+/*# sourceMappingURL=styles.css.map */
