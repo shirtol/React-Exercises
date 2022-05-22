@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.main-container {
+  background-color: #333;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 3rem;
+  height: 100vh;
+}
+
+.main-container .all-names-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 3rem;
+}
+
+.main-container .all-names-container .person-name {
+  font-size: 2rem;
+}
+
+.main-container .all-cards-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 4rem;
+}
+
+.main-container .all-cards-container .card-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 2rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 1px solid #777;
+  padding: 1.5rem;
+  border-radius: 8px;
+  font-size: 1.6rem;
+}
+
+.main-container .all-cards-container .card-container .food-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main-container .all-cards-container .card-container .food-container .food-title {
+  color: #a6a2a2;
+}
+/*# sourceMappingURL=style.css.map */
