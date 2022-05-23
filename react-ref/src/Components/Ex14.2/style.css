@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 4rem;
+    gap: 3rem;
+}
+
+button {
+    padding: 1rem;
+    border-radius: 4px;
+}
+
+textarea {
+    height: 10rem;
+    width: 20rem;
+}
