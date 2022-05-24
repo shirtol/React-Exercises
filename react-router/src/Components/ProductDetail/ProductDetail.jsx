@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
 import NotFound from "../NotFound/NotFound";
 // import { Link } from "react-router-dom";
 import "./ProductDetail.css";
