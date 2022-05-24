@@ -1,0 +1,13 @@
+.items-container {
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem;
+    font-size: 2rem;
+    & > * {
+        text-decoration: none;
+        color: #333;
+        font-weight: 500;
+    }
+}

@@ -1,0 +1,32 @@
+.error-page-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 80vh;
+  gap: 7rem;
+}
+
+.error-page-container .error-title {
+  font-size: 5rem;
+}
+
+.error-page-container .link-go-home {
+  text-decoration: none;
+  color: #333;
+  font-size: 2rem;
+}
+
+.error-page-container .link-go-home:hover {
+  font-weight: 600;
+}
+/*# sourceMappingURL=NotFound.css.map */

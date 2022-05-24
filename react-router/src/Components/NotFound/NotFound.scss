@@ -1,0 +1,19 @@
+.error-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    gap: 7rem;
+    .error-title {
+        font-size: 5rem;
+    }
+    .link-go-home {
+        text-decoration: none;
+        color: #333;
+        font-size: 2rem;
+    }
+    .link-go-home:hover {
+        font-weight: 600;
+    }
+}
