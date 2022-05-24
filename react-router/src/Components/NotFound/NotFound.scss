@@ -12,8 +12,8 @@
         text-decoration: none;
         color: #333;
         font-size: 2rem;
-    }
-    .link-go-home:hover {
-        font-weight: 600;
+        &:hover {
+            font-weight: 600;
+        }
     }
 }

@@ -12,9 +12,9 @@
             text-decoration: none;
             color: #fff;
             font-weight: 500;
-        }
-        & > *:hover {
-            color: antiquewhite;
+            &:hover {
+                color: antiquewhite;
+            }
         }
     }
 }
