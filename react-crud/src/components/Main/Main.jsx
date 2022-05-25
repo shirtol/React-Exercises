@@ -14,18 +14,14 @@ export default class Main extends Component {
     };
 
     componentDidMount() {
-        this.setState(
-            { allTodo: data }
-            // () =>
-            // localStorage.setItem("todoArr", this.state.allTodo)
-        );
+        this.setState({ allTodo: data });
     }
 
     insertTodoItem = () => {
         return this.state.allTodo.map((todoItem) => {
             return (
                 <ToDoItem
-                    key={todoItem.todo}
+                    key={Math.random()}
                     todoTask={todoItem.todo}
                     onDeleteItem={this.onDeleteItem}
                     OnUpdateItem={this.OnUpdateItem}
@@ -85,23 +81,3 @@ export default class Main extends Component {
         );
     }
 }
-
-// onInputChange = ({ target }) => {
-//     this.setState(
-//         (prevState) => ({
-//             newItemFieldData: {
-//                 ...prevState.newItemFieldData,
-//                 id: target.value,
-//                 todo: target.value,
-//             },
-//         }),
-//         () => console.log(this.state.newItemFieldData)
-//     );
-// };
-
-// this.setState((prevState) => ({
-//     allTodo: [...prevState.allTodo, prevState.newItemFieldData],
-//     newItemFieldData: { todo: "", id: "" },
-// }));
-
-// newItemFieldData: { todo: "", id: "" },

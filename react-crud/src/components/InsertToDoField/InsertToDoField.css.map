@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,kBAAkB,CAAC;EACf,WAAW,EAAE,IAAI;CAIpB;;AALD,AAEI,kBAFc,GAEV,CAAC,CAAC;EACF,MAAM,EAAE,IAAI;CACf",
+    "sources": [
+        "InsertToDoField.scss"
+    ],
+    "names": [],
+    "file": "InsertToDoField.css"
+}
