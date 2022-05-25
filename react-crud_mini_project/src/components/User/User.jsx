@@ -72,36 +72,5 @@ export default class User extends Component {
                 </div>
             </div>
         );
-        {
-            /* <div>
-                <img alt="#" src={this.props.img}></img>
-                <h3>
-                    
-                </h3>
-                {this.state.isInUpdateMode ? (
-                    <input
-                        value={this.state.updatedDescriptionValue}
-                        onChange={this.handleDescriptionChange}
-                    ></input>
-                ) : (
-                    <p>{this.props.description}</p>
-                )}
-
-                <button
-                    className="ui primary button"
-                    onClick={() =>
-                        this.handleUpdatePost(this.props.id, "I was updated!!")
-                    }
-                >
-                    Update Your Post
-                </button>
-                <button
-                    className="ui button"
-                    onClick={() => this.props.onDeletePost(this.props.id)}
-                >
-                    Delete Your Post
-                </button>
-            </div> */
-        }
     }
 }
