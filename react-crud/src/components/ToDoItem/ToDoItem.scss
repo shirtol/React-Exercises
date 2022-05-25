@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.todo-item-container {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    width: max-content;
+    padding: 2rem;
+    .todo-task-container {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .input-buttons-field {
+        display: flex;
+        // flex-direction: column;
+        gap: 3rem;
+        width: 50rem;
+        .buttons-container {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}
