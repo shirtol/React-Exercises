@@ -1,5 +1,4 @@
 import React, { useRef } from "react";
-// import video from "./Videos.video.mp4";
 import video from "../../Videos/video3.mp4";
 
 const Ex21Part2 = () => {
